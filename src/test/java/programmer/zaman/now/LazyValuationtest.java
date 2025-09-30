@@ -7,7 +7,7 @@ import java.util.stream.Stream;
 
 public class LazyValuationtest {
 
-
+    // menggunakan intermediate
     @Test
     void testIntermediate() {
         List<String> names = List.of("Indra", "Dwi", "Prabowo");
@@ -20,6 +20,7 @@ public class LazyValuationtest {
 
     }
 
+    // menggunakan terminal operation
     @Test
     void testTerminalOperation() {
         List<String> names = List.of("Indra", "Dwi", "Prabowo");
